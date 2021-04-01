@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<!-- saved from url=(0037)http://127.0.0.1:5500/landing%20page/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>landing page</title>
+    <link rel="stylesheet" href="./landing page_files/styles.css">
+</head>
+<body>
+<div class="navBar">
+    <ul class="navBar">
+        <ol>
+            <img src="./landing page_files/logo dark.png" alt="figmalogo" class="logoimg">
+        </ol>
+        <ol>
+            <p>Home</p>
+        </ol>
+        <ol>
+            <p>Product</p>
+        </ol>
+        <ol>
+            <p>About</p>
+        </ol>
+        <ol>
+            <p>Contact</p>
+        </ol>
+        <ol>
+            <button class="loginbar">Login</button>
+        </ol>
+    </ul>
+    </div>
+
+<div class="heading">
+<h1>Work at the speed<br> of thought</h1>
+</div>
+<div class="subheading">
+<h3>Most calendars are designed for teams.Slate is designed for <br>freelancers who want a simple way to plan their schedule.</h3>
+</div>
+<div class="btn">
+<button class="try">Try for free</button> <button class="learn">Learn more</button>
+<div class="bgimg">
+<img src="./landing page_files/screensblackimg.png" alt="bgimg">
+
+</div>
+</div>
+<!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body></html>

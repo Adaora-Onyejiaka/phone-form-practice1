@@ -1,0 +1,55 @@
+body{
+    background-color: #181818
+}
+.navBar{
+    display: flex;
+    text-align: center;
+}
+.logoimg{
+    width: 59%;
+}
+.loginbar{
+    height: 41px;
+    width: 117px;
+    left: 919px;
+    top: 33px;
+    background-color: transparent;
+    color: white;
+    border-color: white;
+}
+ol p{
+    color: white;
+    font-size: 15px;
+}
+.heading{
+    text-align: center;
+    color: white;
+    font-size: 38px;
+    font-family: sans-serif;
+}
+.subheading{
+    color: white;
+    text-align: center;
+font-size: 17px;
+font-family: sans-serif;
+}
+.btn{
+    text-align: center;
+}
+.try{
+    height: 65px;
+    width: 178px;
+    color: #eeebee;
+    background-color:#4452FE;
+}
+.learn{
+    height: 65px;
+    width: 174px;
+    left: 213px;
+    background-color: transparent;
+    border-color: white;
+    color: white;
+}
+.bgimg{
+    text-align: center;
+}
